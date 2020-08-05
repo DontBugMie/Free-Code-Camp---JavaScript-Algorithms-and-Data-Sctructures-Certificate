@@ -12,7 +12,7 @@
     <h3> Object Oriented Programming: Defining a Constructor Function</h3>
     
     
-    <h6>What is a Constructor?</h6>
+    <h6>What is a <b>Constructor</b>?</h6>
     
     <ul>
     <li>
@@ -47,16 +47,54 @@
         this.relationshipToMaya = "relationshipToMaya";
     }
 </code>
+<br>
+<br>
+<h6>What is an <b>Instance</b>?</h6>
+
+
+<ul>
+    <li>
+        An instance is an object created from a Constructor function <br>
+    </li>
+    <li>
+       <p>"new" is used to call the constructor. When the constructor is called using the "new" keyword it tells JavaScript that a new object based on the properties and behaviours of the Constructor is about to be made </p>
+    </li>
+    <li>
+        If the "new" keyword is not used, "this" inside the constructor will not point to the instance of the constructor.
+    </li>
+
+</ul>
+
+<h6>Constructor for Dog</h6>
+<code>
+    function Dog(){
+        this.name ='name';
+        this.color -'color';
+        this.numLegs = 4;
+    }
+</code>
+<h6>Instance for type of Dog e.g poodle</h6>
+<code>
+    let poodle = new Dog;
+</code>
+
+
+<h6>Constructor for Fruit</h6>
+<code>
+    function Fruit(){
+        this.name ='name';
+        this.color -'color';
+        this.tastinessLevel = 4;
+    }
+</code>
+<h6>Instance for type of Fruit e.g Mango</h6>
+<code>
+    let mango = new fruit;
+</code>
 
 
 
-
-
-
-
-
-
-
+<h2><p><i>Overall, Constructure functions are Adam from Adam and Eve (first man alive acording to the bible). Instances are all other human beings, you, me, Depree!</i></p> </h2>
 
 
 
